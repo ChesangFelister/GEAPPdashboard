@@ -3,7 +3,6 @@ import React from 'react';
 import { Tabs, TabsContent, TabsList, TabsTrigger } from '@/components/ui/tabs';
 import MetricsOverview from '@/components/metrics/MetricsOverview';
 import GapCard from './GapCard';
-
 const TabsSection = () => {
   return (
     <Tabs defaultValue="overview">
